@@ -25,7 +25,7 @@ with open(os.path.join(here, 'CHANGELOG.txt'), encoding='utf-8') as f:
 
 setup(
     name='vokal',  # Library name
-    version='1.0.0',  # Initial release version
+    version='1.0.1',  # Initial release version
     description='A Python library for separating vocals and instruments from audio using Demucs.',
     long_description=long_description + '\n\n' + changelog,
     long_description_content_type='text/markdown',
