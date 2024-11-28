@@ -37,11 +37,12 @@ setup(
     keywords='vocal separation, music processing, audio tools',
     packages=find_packages(),
     install_requires=[
+        "demucs"
         # Add dependencies here if any
     ],
     include_package_data=True,
     package_data={
-        "demucs"
+        
         # Specify additional package data here if necessary
     },
 )
