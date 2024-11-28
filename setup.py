@@ -17,19 +17,19 @@ classifiers = [
 
 # Get the long description from the README and CHANGELOG files
 here = os.path.abspath(os.path.dirname(__file__))
-with open(os.path.join(here, '/Users/meetjethwa/Development/Vocals/vokal/README.md'), encoding='utf-8') as f:
+with open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-with open(os.path.join(here, '/Users/meetjethwa/Development/Vocals/vokal/CHANGELOG.txt'), encoding='utf-8') as f:
+with open(os.path.join(here, 'CHANGELOG.txt'), encoding='utf-8') as f:
     changelog = f.read()
 
 setup(
     name='vokal',  # Library name
     version='1.0.0',  # Initial release version
-    description='A Python library for separating vokals and instruments from audio using Demucs.',
+    description='A Python library for separating vocals and instruments from audio using Demucs.',
     long_description=long_description + '\n\n' + changelog,
     long_description_content_type='text/markdown',
-    # Replace with your GitHub repository URL
+    url='https://github.com/Meet2147/vokal',  # Replace with your actual GitHub repo URL
     author='Meet Jethwa',
     author_email='meetjethwa3@gmail.com',
     license='MIT',
